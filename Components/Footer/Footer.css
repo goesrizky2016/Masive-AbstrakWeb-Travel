@@ -1,0 +1,17 @@
+.footer {
+    background-color: var(--secondary-bg-color); /* Warna latar belakang biru */
+    color: white; /* Warna teks putih */
+    /* padding: 10px 0; Padding atas dan bawah */
+    text-align: center; /* Teks di tengah */
+  }
+  
+  .bg-shape {
+    background-color: var(--secondary-bg-color); /* Warna latar belakang biru */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Membuat latar belakang berada di belakang konten */
+  }
+  

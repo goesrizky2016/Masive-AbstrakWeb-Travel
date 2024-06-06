@@ -1,0 +1,105 @@
+.favourites-section .spa-div {
+    background-image: url(../../Assets/Images/Rectangle-8.png);
+}
+
+.favourites-section .pool-div {
+    background-image: url(../../Assets/Images/Rectangle-9.png);
+}
+
+.favourites-section .pet-friendly-div {
+    background-image: url(../../Assets/Images/Rectangle-10.png);
+}
+
+.favourites-section .all-inclusive-div {
+    background-image: url(../../Assets/Images/Rectangle-11.png);
+}
+
+.favourites-section .spa-div,
+.favourites-section .pool-div,
+.favourites-section .pet-friendly-div,
+.favourites-section .all-inclusive-div {
+    
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.h2 {
+    margin-bottom: 2rem; /* Sesuaikan dengan kebutuhan */
+}
+
+
+.favourites-section .text-center {
+    text-align: right;
+}
+
+.favourites-section .text-left {
+    text-align: left;
+    
+}
+
+.favourites-section .text-blue {
+    color: #166274; /* Ubah warna sesuai kebutuhan */
+}
+
+.favourites-section .mt-2 {
+    margin-top: 0.5rem; /* Sesuaikan jarak margin atas */
+}
+
+.favourites-section .mb-4 {
+    margin-bottom: 1.5rem; /* Sesuaikan jarak margin bawah */
+}
+
+.text-objek {
+    margin-top: 20px;
+}
+
+/* Tambahkan aturan CSS lainnya yang diperlukan */
+
+@media screen and (max-width: 992px) {
+    .favourites-section .spa-div {
+        position: relative;
+        width: 300px;
+        height: 300px; 
+        transform: translate(30.9%, 0%);
+        margin-top: 50px;
+
+       
+    }
+
+    .favourites-section .text-objek {
+        position: relative;
+        transform: translate(30.9%, 0%);
+        margin-top: 50px;
+
+       
+    }
+
+
+    .favourites-section .pool-div {
+        position: relative;
+        width: 300px;
+        height: 300px; 
+        transform: translate(30.9%, 0%);
+
+       
+    }
+    .favourites-section .pet-friendly-div {
+        position: relative;
+        width: 300px;
+        height: 300px; 
+        transform: translate(30.9%, 0%);
+
+       
+    }
+    .favourites-section .all-inclusive-div {
+        position: relative;
+        width: 300px;
+        height: 300px; 
+        transform: translate(30.9%, 0%);
+
+       
+    }
+    
+}
+

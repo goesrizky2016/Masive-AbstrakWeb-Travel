@@ -1,0 +1,24 @@
+.leanding-page .recommended-section .container {
+    background-image: url(../../Assets/Images/recommended-section-bg.jpg);
+}
+
+.leanding-page .holiday-plan-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.50)), url(../../Assets/Images/holiday-plan-bg.jpg);
+}
+
+/* .leanding-page .need-inspiration-section {
+    background-image: url(../../Assets/Images/need-inspiration-bg.jpg);
+} */
+
+/* LeandingPage.css */
+.leanding-page {
+    background-image: url('../../Assets/Images/back.jpg'); /* Sesuaikan path dengan lokasi gambar Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    margin-top: -40px;
+}
+
+

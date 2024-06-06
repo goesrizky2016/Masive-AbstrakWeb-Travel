@@ -1,0 +1,117 @@
+.detail-liburan {
+    width: 75%;
+    background-position: center;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.detail-liburan .bg-shape1 {
+    width: 100%;
+    background-size: cover;
+    
+    border-top-left-radius: 20px; /* Tambahkan border-radius atas kiri */
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px; /* Pastikan border-radius atas kiri juga ada di media query */
+    border-bottom-right-radius: 20px;
+    background-color: aliceblue;
+    
+    
+}
+
+@media screen and (max-width: 768px) {
+    .detail-liburan .bg-shape1 {
+        width: 100%;
+        border-top-left-radius: 15px; /* Pastikan border-radius atas kiri juga ada di media query */
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px; /* Pastikan border-radius atas kiri juga ada di media query */
+        border-bottom-right-radius: 15px;
+    }
+}
+
+.detail-liburan .mitra-image {
+    margin: 10px; /* Atur jarak sesuai kebutuhan Anda */
+    width: 30%;  /* Atur lebar gambar sesuai kebutuhan Anda */
+    height: 30%; /* Atur tinggi gambar sesuai kebutuhan Anda */
+}
+
+.circle {
+    display: inline-block;
+    width: 5px;  /* Ukuran lingkaran */
+    height: 5px; /* Ukuran lingkaran */
+    background-color: black; /* Warna lingkaran */
+    border-radius: 50%;
+    margin-right: 20px; /* Jarak antara teks dan lingkaran */
+    vertical-align: middle; /* Menyelaraskan lingkaran dengan teks */
+    
+}
+
+
+.detail-liburan .small-text {
+    font-size: 12px; /* Sesuaikan ukuran huruf sesuai kebutuhan */
+}
+
+.detail-liburan .button {
+    background: #166274;
+    border-radius: 40px;
+    border: none; /* Hapus border */
+    margin-top: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.detail-liburan .button:focus,
+.detail-liburan .button:active,
+.detail-liburan .button:hover {
+    background: #166274; 
+    outline: none; /* Hapus outline */
+}
+
+/* .need-inspiration-section .button2:focus,
+.need-inspiration-section .button2:active,
+.need-inspiration-section .button2:hover {
+    background: #ffff;
+    outline: none; 
+} */
+
+.text-detail {
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    border: none;
+    
+}
+
+.text-start1 {
+    margin-bottom: 80px;
+}
+
+.text-start2 {
+    margin-bottom: 20px;
+}
+
+.detail-liburan .button2.active {
+    color: white; /* Warna teks saat aktif */
+    background-color: #166274;
+    /* border: 2px solid black; */
+}
+
+.detail-liburan .button2 {
+    border-radius: 20px;
+    border: none;
+    color: #166274; /* Warna teks awal */
+    padding: 10px 20px;
+    margin-right: -110px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: -100px;
+    
+}
+
+
+.detail-liburan .button-group {
+    display: flex;
+    align-items: center;
+}

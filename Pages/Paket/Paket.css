@@ -1,0 +1,9 @@
+.paketliburan3 {
+    background-image: url('../../Assets/Images/back.jpg'); /* Sesuaikan path dengan lokasi gambar Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    
+}

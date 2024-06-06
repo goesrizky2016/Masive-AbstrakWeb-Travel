@@ -1,0 +1,231 @@
+.favourites-section2 .spa-div1 {
+    background-image: url(../../Assets/Images/Rectangle-349.png);
+}
+
+.favourites-section2 .spa-div2 {
+    background-image: url(../../Assets/Images/Rectangle-356.png);
+}
+
+.favourites-section2 .spa-div3 {
+    background-image: url(../../Assets/Images/Rectangle-363.png);
+}
+
+.favourites-section2 .spa-div4 {
+    background-image: url(../../Assets/Images/Rectangle-370.png);   
+}
+
+.favourites-section2 .spa-div5 {
+    background-image: url(../../Assets/Images/Rectangle-373.png);
+}
+.favourites-section2 .spa-div6 {
+    background-image: url(../../Assets/Images/Rectangle-376.png);
+}
+.favourites-section2 .spa-div7 {
+    background-image: url(../../Assets/Images/Rectangle-353.png);
+}
+.favourites-section2 .spa-div8 {
+    background-image: url(../../Assets/Images/Rectangle-360.png);
+}
+.favourites-section2 .spa-div9 {
+    background-image: url(../../Assets/Images/Rectangle-367.png);
+}
+
+.favourites-section2 .spa-div1,
+.favourites-section2 .spa-div2,
+.favourites-section2 .spa-div3,
+.favourites-section2 .spa-div4,
+.favourites-section2 .spa-div5,
+.favourites-section2 .spa-div6,
+.favourites-section2 .spa-div7,
+.favourites-section2 .spa-div8,
+.favourites-section2 .spa-div9 {
+    
+    background-position: center;
+    height: 400px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.h2 {
+    margin-bottom: 2rem; /* Sesuaikan dengan kebutuhan */
+}
+
+
+.favourites-section2 .text-center2 {
+    text-align: right;
+}
+
+.favourites-section2 .text-left2 {
+    text-align: left;
+    
+}
+
+.favourites-section2 .text-blue2 {
+    color: #166274; /* Ubah warna sesuai kebutuhan */
+}
+
+.favourites-section2 .mt-2 {
+    margin-top: 0.5rem; /* Sesuaikan jarak margin atas */
+}
+
+.favourites-section2 .mb-4 {
+    margin-bottom: 1.5rem; /* Sesuaikan jarak margin bawah */
+}
+
+.text-objek2 {
+    margin-top: 20px;
+}
+
+/* Tambahkan aturan CSS lainnya yang diperlukan */
+
+@media screen and (max-width: 992px) {
+    .favourites-section2 .spa-div1 {
+        position: relative;
+        width: 300px;
+        height: 300px; 
+        transform: translate(30.9%, 0%);
+        margin-top: 50px;
+
+       
+    }
+
+    .favourites-section2 .spa-div2 {
+        position: relative;
+        width: 300px;
+        height: 300px; 
+        transform: translate(30.9%, 0%);
+        margin-top: 50px;
+
+       
+    }
+
+    .favourites-section2 .spa-div3 {
+        position: relative;
+        width: 300px;
+        height: 300px; 
+        transform: translate(30.9%, 0%);
+        margin-top: 50px;
+
+       
+    }
+
+    .favourites-section2 .spa-div4 {
+        position: relative;
+        width: 300px;
+        height: 300px; 
+        transform: translate(30.9%, 0%);
+        margin-top: 50px;
+
+       
+    }
+
+    .favourites-section2 .spa-div5 {
+        position: relative;
+        width: 300px;
+        height: 300px; 
+        transform: translate(30.9%, 0%);
+        margin-top: 50px;
+
+       
+    }
+
+    .favourites-section2 .spa-div6 {
+        position: relative;
+        width: 300px;
+        height: 300px; 
+        transform: translate(30.9%, 0%);
+        margin-top: 50px;
+
+       
+    }
+
+    .favourites-section2 .spa-div7 {
+        position: relative;
+        width: 300px;
+        height: 300px; 
+        transform: translate(30.9%, 0%);
+        margin-top: 50px;
+
+       
+    }
+
+    .favourites-section2 .spa-div8 {
+        position: relative;
+        width: 300px;
+        height: 300px; 
+        transform: translate(30.9%, 0%);
+        margin-top: 50px;
+
+       
+    }
+    .favourites-section2 .spa-div9 {
+        position: relative;
+        width: 300px;
+        height: 300px; 
+        transform: translate(30.9%, 0%);
+        margin-top: 50px;
+
+       
+    }
+    
+}
+
+.button-container3 {
+    bottom: 10px;
+    width: 93%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(252, 251, 251, 0.486);
+    border-radius: 40px;
+}
+
+.button-fs2{
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    background-color: #166274; /* Warna background tombol */
+    margin-left: 300px;
+    border: none;
+
+}
+
+
+
+.spa-div1, .spa-div2, .spa-div3, .spa-div4, .spa-div5, .spa-div6, .spa-div7, .spa-div8, .spa-div9 {
+    height: 200px; /* Atur sesuai dengan ukuran gambar yang diinginkan */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.text-fs2{
+    position: absolute;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.harga-fs2{
+    position: absolute;
+    margin-right: 150px;
+    margin-bottom: 10px;
+}
+
+.form-control{
+    position: relative;
+    height: 50px;
+    width: 100px;
+    margin-left: -200px;
+    border: #166274; 
+}
+
+.label-background {
+    color: #166274; /* Warna latar belakang yang diinginkan */
+    border-radius: 5px;
+}
+    
+
+
