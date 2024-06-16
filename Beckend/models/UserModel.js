@@ -1,23 +1,11 @@
-import { Sequelize } from "sequelize";
-import db from "../config/database.js";
+// import { DataTypes } from "sequelize";
+// import db from "../config/database.js";
 
-const { DataTypes } = Sequelize;
-
-const Users = db.define('users',{
-    name:{
-        type: DataTypes.STRING
-    },
-    email:{
-        type: DataTypes.STRING
-    },
-    password:{
-        type: DataTypes.STRING
-    },
-    refresh_token:{
-        type: DataTypes.TEXT
-    }
-},{
-    freezeTableName:true
-})
-
-export default Users;
+// const Users = db.define('users', {
+//     email: { type: DataTypes.STRING },
+//     password: { type: DataTypes.STRING },
+//     role: { type: DataTypes.STRING, defaultValue: 'user' },
+//     refresh_token: { type: DataTypes.STRING } // Tambahkan ini untuk kolom refresh_token
+// }, {
+//     freezeTableName: true
+// });

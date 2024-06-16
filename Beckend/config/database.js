@@ -1,8 +1,10 @@
-import { Sequelize } from "sequelize";
+import mysql from "mysql2/promise";
 
-const db = new Sequelize('user_db','root','',{
-    host: "localhost",
-    dialect: "mysql"
+const db = await mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  password: "",
+  database: "anterin",
 });
 
 export default db;
