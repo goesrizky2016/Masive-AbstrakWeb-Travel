@@ -1,0 +1,250 @@
+.need-inspiration-section2 {
+    width: 50%;
+    background-position: center;
+    margin-left: 380px;
+    margin-bottom: 100px;
+}
+
+.need-inspiration-section2 .bg-shape {
+    width: 100%;
+    background-size: cover;
+    bottom: 0;
+    top: 0;
+    border-top-left-radius: 20px; /* Tambahkan border-radius atas kiri */
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px; /* Pastikan border-radius atas kiri juga ada di media query */
+    border-bottom-right-radius: 20px;
+    
+    
+}
+
+@media screen and (max-width: 768px) {
+    .need-inspiration-section2 .bg-shape {
+        width: 100%;
+        border-top-left-radius: 15px; /* Pastikan border-radius atas kiri juga ada di media query */
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px; /* Pastikan border-radius atas kiri juga ada di media query */
+        border-bottom-right-radius: 15px;
+    }
+}
+
+
+
+.need-inspiration-section2 .circle {
+    display: inline-block;
+    width: 5px;  /* Ukuran lingkaran */
+    height: 5px; /* Ukuran lingkaran */
+    background-color: rgb(250, 248, 248); /* Warna lingkaran */
+    border-radius: 50%;
+    margin-right: 20px; /* Jarak antara teks dan lingkaran */
+    vertical-align: middle; /* Menyelaraskan lingkaran dengan teks */
+    position: relative;
+    
+
+}
+
+.need-inspiration-section2 .small-text {
+    font-size: 12px; /* Sesuaikan ukuran huruf sesuai kebutuhan */
+}
+
+.need-inspiration-section2 .button {
+    background: #ffff;
+    border-radius: 40px;
+    border: none; /* Hapus border */
+    margin-top: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+
+.need-inspiration-section2 .button:focus,
+.need-inspiration-section2 .button:active,
+.need-inspiration-section2 .button:hover {
+    background: #ffff; 
+    outline: none; /* Hapus outline */
+}
+
+/* .need-inspiration-section .button2:focus,
+.need-inspiration-section .button2:active,
+.need-inspiration-section .button2:hover {
+    background: #ffff;
+    outline: none; 
+} */
+
+.need-inspiration-section2 .text-detail {
+    color: #166274;
+    border-radius: 40px;
+    border: none;
+
+    
+}
+.need-inspiration-section2 .button2.active {
+    color: white; /* Warna teks saat aktif */
+    background-color: #166274;
+    border: 2px solid black;
+}
+
+.need-inspiration-section2 .button2 {
+    border-radius: 20px;
+    border: 2px solid black; /* Tambahkan border */
+    color: #166274; /* Warna teks awal */
+    padding: 10px 20px;
+    margin-right: -20px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    left: -20px;
+    top: -10px;
+}
+
+
+.need-inspiration-section2 .button-group {
+    display: flex;
+    align-items: center;
+}
+
+
+.custom-modal .modal-content {
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+    width: 900px;
+    left: -180px;
+}
+
+.custom-modal .modal-header {
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-modal .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #166274;
+}
+
+.custom-modal .modal-header .close {
+    font-size: 1.5rem;
+    color: #000;
+    opacity: 1;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-modal .modal-header .close:hover {
+    color: #000;
+    opacity: 0.7;
+}
+
+.custom-modal .modal-body {
+    font-size: 1rem;
+    color: #333;
+}
+
+.custom-modal .modal-footer {
+    border-top: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.custom-modal .btn-primary {
+    background-color: #166274;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.custom-modal .btn-primary:hover {
+    background-color: #144a5b;
+}
+
+.custom-modal .button3 {
+    border-radius: 20px;
+    border: 2px solid black; /* Tambahkan border */
+    color: #166274; /* Warna teks awal */
+    padding: 10px 20px;
+    margin-right: -45px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: -800px;
+    
+}
+
+.custom-modal .button-group2 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.custom-modal .button3.active {
+    color: white; /* Warna teks saat aktif */
+    background-color: #166274;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+.custom-modal .circle1 {
+    display: inline-block;
+    width: 5px;  /* Ukuran lingkaran */
+    height: 5px; /* Ukuran lingkaran */
+    background-color: rgb(7, 7, 7); /* Warna lingkaran */
+    border-radius: 50%;
+    margin-right: 20px; /* Jarak antara teks dan lingkaran */
+    vertical-align: middle; /* Menyelaraskan lingkaran dengan teks */
+}
+
+.custom-modal .button-modal {
+    background: #166274;
+    border-radius: 40px;
+    border: none; /* Hapus border */
+    margin-top: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 375px;
+    
+}
+
+.custom-modal .button-modal:focus,
+.custom-modal .button-modal:active,
+.custom-modal .button-modal:hover {
+    background: #166274; 
+    outline: none; /* Hapus outline */
+}
+
+.custom-modal .text-detail2 {
+    color: #fff;
+    border-radius: 40px;
+    border: none;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.custom-modal .small-text2 {
+    font-size: 12px; /* Sesuaikan ukuran huruf sesuai kebutuhan */
+}
+
+.text-start {
+    position: absolute;
+    left: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

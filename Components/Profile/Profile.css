@@ -1,0 +1,337 @@
+.profile-form {
+    
+    background-position: center;
+    background-size: cover;
+}
+
+.message {
+    margin-top: 10px;
+    color: BLACK; /* Ganti dengan warna yang sesuai */
+    text-align: center;
+}
+
+.button-1 .img-google {
+    margin: 3%;
+    width: 7%; /* Lebar gambar */
+    height: 58%; /* Tinggi gambar */
+}
+
+.wrapper3-bayar { 
+    width: 850px;
+    height: 600px;
+    background-color: #30889D;
+    border: 2px solod   rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin-top: 100px;
+    margin-bottom: 45px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.pesan-paket-title {
+    position: absolute;
+    left: 350px; /* Adjust this value to position the title correctly */
+    top: 60px; /* Adjust this value to position the title vertically */
+    font-size: 32px; /* Adjust font size as needed */
+    color: #f8f5f5; /* Adjust color as needed */
+}
+
+.pesan-paket-title2 {
+    position: absolute;
+    left: 50px; /* Adjust this value to position the title correctly */
+    top: 255px; /* Adjust this value to position the title vertically */
+    font-size: 24px; /* Adjust font size as needed */
+    color: #f8f5f5; /* Adjust color as needed */
+}
+
+.pesan-paket-title3 {
+    position: absolute;
+    left: 50px; /* Adjust this value to position the title correctly */
+    top: 300px; /* Adjust this value to position the title vertically */
+    font-size: 10px; /* Adjust font size as needed */
+    color: #f8f5f5; /* Adjust color as needed */
+}
+
+
+
+.form-title-profile1 {
+    font-size: 0.9rem;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 380px;
+    
+}
+
+.form-title-profile2 {
+    font-size: 0.9rem;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 380px;
+}
+
+.form-title-profile3 {
+    font-size: 0.9rem;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 380px;
+}
+
+.form-title-profile4 {
+    font-size: 0.9rem;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 380px;
+}
+
+
+
+.form-title4 {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    margin-left: -220px;
+    /* Add other styles as needed */
+}
+
+.input-box-profile1 {
+    
+    position: absolute;
+    top: 200px;
+    left: 397px;
+    border: none;
+    border-radius: 20px;
+    width: 350px;
+    height: 30px;
+
+}
+.input-box-profile2 {
+    
+    position: absolute;
+    top: 260px;
+    left: 397px;
+    border: none;
+    border-radius: 20px;
+    width: 350px;
+    height: 30px;
+
+}
+.input-box-profile3 {
+    
+    position: absolute;
+    top: 320px;
+    left: 397px;
+    border: none;
+    border-radius: 20px;
+    width: 350px;
+    height: 30px;
+
+}
+.input-box-profile4 {
+    
+    position: absolute;
+    top: 330px;
+    left: 376px;
+    border: none;
+    border-radius: 20px;
+    width: 350px;
+    height: 30px;
+
+}
+
+.input-box-profile input {
+    margin-right: 10px; /* Adjust the margin as needed */
+
+}
+
+.button-profile {
+    background-color: #166274;
+}
+
+
+
+
+
+.new-container1 .input-col1 {
+    height: 40px;
+    width: 300px;
+    border: none;
+}
+
+.new-container1 .input-col2 {
+    height: 40px;
+    width: 240px;
+    border: none;
+}
+
+.new-container1 .input-col3 {
+    height: 40px;
+    width: 240px;
+    border: none;
+}
+
+.new-container1 .input-col4 {
+    height: 40px;
+    width: 300px;
+    border: none;
+}
+
+.wrapper3-bayar .input-col5 {
+    height: 40px;
+    width: 240px;
+    border: none;
+    background-color: #ffffff83;
+    position: absolute;
+    left: 40px; /* Adjust this value to position the title correctly */
+    top: 380px;
+    color: #166274;
+}
+
+.modal-group {
+    border: none;
+}
+
+::placeholder {
+    color: #ffffff; /* Ganti dengan warna yang Anda inginkan */
+    font-size: 0.8rem;
+
+}
+
+.input-with-custom-placeholder1::placeholder {
+    color:#166274; /* Ganti dengan warna yang Anda inginkan */
+}
+
+.input-with-custom-placeholder1 {
+    padding-left: 10px; /* Tambahkan jarak kiri pada input */
+    color: #166274;
+}
+.input-with-custom-placeholder1:focus {
+    color: #166274; /* Ubah warna teks menjadi putih saat input dalam fokus */
+    caret-color: #166274;
+}
+
+
+
+.wrapper3-bayar .back-button2 {
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #ffffff;
+    position: absolute;
+    left: 40px; /* Adjust this value to position the title correctly */
+    top: 50px;
+    border-radius: 50%;
+
+}
+
+.wrapper3-bayar .text-color1 {
+    color: #166274;
+}
+
+.wrapper3-bayar .input-box-profile {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: aliceblue;
+    border-radius: 40px;
+}
+
+.button1 {
+    position: absolute;
+    top: 450px;
+    background-color: #166274;
+    color: #ffffff;
+    border: none;
+    left: 400px;
+    border-radius: 20px;
+
+}
+
+.button2 {
+    position: absolute;
+    top: 450px;
+    left: 680px;
+    background-color: #166274;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.button3 {
+    position: absolute;
+    top: 400px;
+    left: 80px;
+    background-color: #166274;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.button4 {
+    position: absolute;
+    top: 350px;
+    left: 120px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.profile-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 200px;
+    left: 108px;
+}
+
+.input-box-profile-group {
+    margin-bottom: 15px;
+}
+
+.dropdown-toggle-custom {
+    background-color: white !important;
+    color: black !important;
+    width: 350px;
+    height: 35px;
+    text-align: center;
+    border: none;
+    position: absolute;
+    top: 335px;
+    left: 375px;
+    border-radius: 20px;
+}
+
+.dropdown-toggle-custom::after {
+    margin-left: auto;
+    color: black !important;
+}
+
+.dropdown-item-custom {
+    background-color: white !important;
+    color: black !important;
+}
+
+
+
+
+  
+  
+
+
+
+
+

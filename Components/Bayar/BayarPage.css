@@ -1,0 +1,319 @@
+.bayar-form {
+    
+    background-position: center;
+    background-size: cover;
+}
+
+
+.button-1 .img-google {
+    margin: 3%;
+    width: 7%; /* Lebar gambar */
+    height: 58%; /* Tinggi gambar */
+}
+
+.wrapper2-bayar { 
+    width: 900px;
+    height: 600px;
+    background-color: #166274;
+    border: 2px solod   rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    box-shadow:  0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin-top: 100px;
+    margin-bottom: 45px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.pesan-paket-title {
+    position: absolute;
+    left: 50px; /* Adjust this value to position the title correctly */
+    top: 220px; /* Adjust this value to position the title vertically */
+    font-size: 24px; /* Adjust font size as needed */
+    color: #f8f5f5; /* Adjust color as needed */
+}
+
+.pesan-paket-title2 {
+    position: absolute;
+    left: 50px; /* Adjust this value to position the title correctly */
+    top: 255px; /* Adjust this value to position the title vertically */
+    font-size: 24px; /* Adjust font size as needed */
+    color: #f8f5f5; /* Adjust color as needed */
+}
+
+.pesan-paket-title3 {
+    position: absolute;
+    left: 50px; /* Adjust this value to position the title correctly */
+    top: 300px; /* Adjust this value to position the title vertically */
+    font-size: 10px; /* Adjust font size as needed */
+    color: #f8f5f5; /* Adjust color as needed */
+}
+
+
+.wrapper2-bayar .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    border: none;
+}
+
+.input-box-bayar input{
+    width: 300px;
+    height: 40px;
+    background-color: #166274;
+    border-radius: 20px;
+}
+
+
+
+.wrapper2-bayar .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: white;
+    margin-right: 4px;
+}
+
+.remember-forgot a{
+    color: black;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper2-bayar .button{
+    width: 100%;
+    margin: 10px;
+    height: 45px;
+    background: #166274;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    position: relative;
+    margin-right: 10px;
+}
+
+.wrapper2-bayar .button-1{
+    width: 100%;
+    margin: 10px;
+    height: 45px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(241, 240, 240, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #f8f5f5;
+    font-weight: 700;
+    text-align: center;
+}
+
+.wrapper2-bayar .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+.new-container {
+    background-color: #fdfbfb;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 500px;
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.new-container-bottom {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-title {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    margin-left: -370px;
+    /* Add other styles as needed */
+}
+
+.form-title2 {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    margin-left: -305px;
+    /* Add other styles as needed */
+}
+
+.form-title3 {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    margin-left: -370px;
+    /* Add other styles as needed */
+}
+
+.input-box-bayar1 input:disabled{
+    width: 455px;
+    height: 5px;
+    background-color: #166274;
+    margin-top: 20px;
+    
+}
+
+.form-title4 {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    margin-left: -220px;
+    /* Add other styles as needed */
+}
+
+.input-box-bayar {
+    display: flex;
+    align-items: center;
+}
+
+.input-box-bayar input {
+    margin-right: 10px; /* Adjust the margin as needed */
+
+}
+
+.button-bayar {
+    background-color: #166274;
+}
+
+::placeholder {
+    color: #ffffff; /* Ganti dengan warna yang Anda inginkan */
+    font-size: 0.8rem;
+   
+   
+    
+}
+
+.input-with-custom-placeholder::placeholder {
+    color: #ffffff; /* Ganti dengan warna yang Anda inginkan */
+}
+
+.input-with-custom-placeholder {
+    padding-left: 10px; /* Tambahkan jarak kiri pada input */
+    color: #ffffff;
+}
+.input-with-custom-placeholder:focus {
+    color: #ffffff; /* Ubah warna teks menjadi putih saat input dalam fokus */
+    caret-color: #ffffff;
+}
+
+.new-container .input-col1 {
+    height: 40px;
+    width: 300px;
+    border: none;
+}
+
+.new-container .input-col2 {
+    height: 40px;
+    width: 240px;
+    border: none;
+}
+
+.new-container .input-col3 {
+    height: 40px;
+    width: 240px;
+    border: none;
+}
+
+.new-container .input-col4 {
+    height: 40px;
+    width: 300px;
+    border: none;
+}
+
+.wrapper2-bayar .input-col5 {
+    height: 40px;
+    width: 240px;
+    border: none;
+    background-color: #ffffff83;
+    position: absolute;
+    left: 40px; /* Adjust this value to position the title correctly */
+    top: 380px;
+    color: #166274;
+}
+
+.modal-group {
+    border: none;
+}
+
+::placeholder {
+    color: #ffffff; /* Ganti dengan warna yang Anda inginkan */
+    font-size: 0.8rem;
+
+}
+
+.input-with-custom-placeholder1::placeholder {
+    color:#166274; /* Ganti dengan warna yang Anda inginkan */
+}
+
+.input-with-custom-placeholder1 {
+    padding-left: 10px; /* Tambahkan jarak kiri pada input */
+    color: #166274;
+}
+.input-with-custom-placeholder1:focus {
+    color: #166274; /* Ubah warna teks menjadi putih saat input dalam fokus */
+    caret-color: #166274;
+}
+
+
+
+.wrapper2-bayar .back-button2 {
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #ffffff;
+    position: absolute;
+    left: 40px; /* Adjust this value to position the title correctly */
+    top: 50px;
+    border-radius: 50%;
+
+}
+
+.wrapper2-bayar .text-color1 {
+    color: #166274;
+}
+
+
+  
+  
+
+
+
+
+

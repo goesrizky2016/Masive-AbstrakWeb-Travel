@@ -1,0 +1,31 @@
+.need-inspiration-section {
+    background-size: cover;
+    background-position: center;
+    background-color: var(--secondary-bg-color);
+    
+    
+}
+
+.need-inspiration-section .bg-shape {
+    width: 100%;
+    background-color: var(--secondary-bg-color);
+    background-size: cover;
+    bottom: 0;
+    top: 0;
+    border-top-left-radius: 20px; /* Tambahkan border-radius atas kiri */
+    border-top-right-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .need-inspiration-section .bg-shape {
+        width: 100%;
+        border-top-left-radius: 15px; /* Pastikan border-radius atas kiri juga ada di media query */
+        border-top-right-radius: 15px;
+    }
+}
+
+.need-inspiration-section .mitra-image {
+    margin: 10px; /* Atur jarak sesuai kebutuhan Anda */
+    width: 30%;  /* Atur lebar gambar sesuai kebutuhan Anda */
+    height: 30%; /* Atur tinggi gambar sesuai kebutuhan Anda */
+}

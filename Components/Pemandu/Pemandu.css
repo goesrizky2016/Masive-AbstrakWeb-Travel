@@ -1,0 +1,86 @@
+.pemandu-section .spa-div {
+    background-image: url(../../Assets/Images/Component-5.png);
+}
+
+/* .favourites-section .pool-div {
+    background-image: url(../../Assets/Images/Rectangle-9.png);
+}
+
+.favourites-section .pet-friendly-div {
+    background-image: url(../../Assets/Images/Rectangle-10.png);
+}
+
+.favourites-section .all-inclusive-div {
+    background-image: url(../../Assets/Images/Rectangle-11.png);
+} */
+
+.pemandu-section .spa-div {
+    
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 900px;
+    margin-left: 100px;
+}
+
+.h2 {
+    margin-bottom: 2rem; /* Sesuaikan dengan kebutuhan */
+}
+
+
+.pemandu-section .text-center {
+    text-align: right;
+}
+
+.pemandu-section .text-left {
+    text-align: left;
+    
+}
+
+.pemandu-section .text-blue {
+    color: #166274; /* Ubah warna sesuai kebutuhan */
+}
+
+.pemandu-section .mt-2 {
+    margin-top: 0.5rem; /* Sesuaikan jarak margin atas */
+}
+
+.pemandu-section .mb-4 {
+    margin-bottom: 1.5rem; /* Sesuaikan jarak margin bawah */
+}
+
+/* Tambahkan aturan CSS lainnya yang diperlukan */
+
+@media screen and (max-width: 992px) {
+    .pemandu-section .spa-div {
+        position: relative;
+        width: 410px;
+        height: 210px; 
+        transform: translate(-20.9%, 0%);
+        
+
+    }
+
+    .button-pemandu {
+        position: relative;
+        transform: translate(-110.9%, 0%); 
+        margin-bottom: 50px;
+    }
+
+    
+}
+
+.button-pemandu {
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 300px;
+    border-radius: 40px;
+    text-decoration: none;
+    border: none;
+}
+
+.text-pemandu {
+    size: 10;
+    margin-bottom: 550px;
+}
+

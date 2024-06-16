@@ -1,44 +1,44 @@
-.favourites-section2 .spa-div1 {
-    background-image: url(../../Assets/Images/Rectangle-349.png);
+.pemandu-section2 .spa-div1 {
+    background-image: url(../../Assets/Images/image-50.png);
 }
 
-.favourites-section2 .spa-div2 {
-    background-image: url(../../Assets/Images/Rectangle-356.png);
+.pemandu-section2 .spa-div2 {
+    background-image: url(../../Assets/Images/Image-53.png);
 }
 
-.favourites-section2 .spa-div3 {
-    background-image: url(../../Assets/Images/Rectangle-363.png);
+.pemandu-section2 .spa-div3 {
+    background-image: url(../../Assets/Images/image-52.png);
 }
 
-.favourites-section2 .spa-div4 {
-    background-image: url(../../Assets/Images/Rectangle-370.png);   
+.pemandu-section2 .spa-div4 {
+    background-image: url(../../Assets/Images/image-47.png);   
 }
 
-.favourites-section2 .spa-div5 {
-    background-image: url(../../Assets/Images/Rectangle-373.png);
+.pemandu-section2 .spa-div5 {
+    background-image: url(../../Assets/Images/image-49.png);
 }
-.favourites-section2 .spa-div6 {
-    background-image: url(../../Assets/Images/Rectangle-376.png);
+.pemandu-section2 .spa-div6 {
+    background-image: url(../../Assets/Images/image-48.png);
 }
-.favourites-section2 .spa-div7 {
+/* .pemandu-section2 .spa-div7 {
     background-image: url(../../Assets/Images/Rectangle-353.png);
 }
-.favourites-section2 .spa-div8 {
+.pemandu-section2 .spa-div8 {
     background-image: url(../../Assets/Images/Rectangle-360.png);
 }
-.favourites-section2 .spa-div9 {
+.pemandu-section2 .spa-div9 {
     background-image: url(../../Assets/Images/Rectangle-367.png);
-}
+} */
 
-.favourites-section2 .spa-div1,
-.favourites-section2 .spa-div2,
-.favourites-section2 .spa-div3,
-.favourites-section2 .spa-div4,
-.favourites-section2 .spa-div5,
-.favourites-section2 .spa-div6,
-.favourites-section2 .spa-div7,
-.favourites-section2 .spa-div8,
-.favourites-section2 .spa-div9 {
+.pemandu-section2 .spa-div1,
+.pemandu-section2 .spa-div2,
+.pemandu-section2 .spa-div3,
+.pemandu-section2 .spa-div4,
+.pemandu-section2 .spa-div5,
+.pemandu-section2 .spa-div6,
+.pemandu-section2 .spa-div7,
+.pemandu-section2 .spa-div8,
+.pemandu-section2 .spa-div9 {
     
     background-position: center;
     height: 400px;
@@ -52,24 +52,24 @@
 }
 
 
-.favourites-section2 .text-center2 {
+.pemandu-section2 .text-center2 {
     text-align: right;
 }
 
-.favourites-section2 .text-left2 {
+.pemandu-section2 .text-left2 {
     text-align: left;
     
 }
 
-.favourites-section2 .text-blue2 {
+.pemandu-section2 .text-blue2 {
     color: #166274; /* Ubah warna sesuai kebutuhan */
 }
 
-.favourites-section2 .mt-2 {
+.pemandu-section2 .mt-2 {
     margin-top: 0.5rem; /* Sesuaikan jarak margin atas */
 }
 
-.favourites-section2 .mb-4 {
+.pemandu-section2 .mb-4 {
     margin-bottom: 1.5rem; /* Sesuaikan jarak margin bawah */
 }
 
@@ -80,7 +80,7 @@
 /* Tambahkan aturan CSS lainnya yang diperlukan */
 
 @media screen and (max-width: 992px) {
-    .favourites-section2 .spa-div1 {
+    .pemandu-section2 .spa-div1 {
         position: relative;
         width: 300px;
         height: 300px; 
@@ -90,7 +90,7 @@
        
     }
 
-    .favourites-section2 .spa-div2 {
+    .pemandu-section2 .spa-div2 {
         position: relative;
         width: 300px;
         height: 300px; 
@@ -100,7 +100,7 @@
        
     }
 
-    .favourites-section2 .spa-div3 {
+    .pemandu-section2 .spa-div3 {
         position: relative;
         width: 300px;
         height: 300px; 
@@ -110,7 +110,7 @@
        
     }
 
-    .favourites-section2 .spa-div4 {
+    .pemandu-section2 .spa-div4 {
         position: relative;
         width: 300px;
         height: 300px; 
@@ -120,7 +120,7 @@
        
     }
 
-    .favourites-section2 .spa-div5 {
+    .pemandu-section2 .spa-div5 {
         position: relative;
         width: 300px;
         height: 300px; 
@@ -130,7 +130,7 @@
        
     }
 
-    .favourites-section2 .spa-div6 {
+    .pemandu-section2 .spa-div6 {
         position: relative;
         width: 300px;
         height: 300px; 
@@ -140,7 +140,7 @@
        
     }
 
-    .favourites-section2 .spa-div7 {
+    .pemandu-section2 .spa-div7 {
         position: relative;
         width: 300px;
         height: 300px; 
@@ -150,7 +150,7 @@
        
     }
 
-    .favourites-section2 .spa-div8 {
+    .pemandu-section2 .spa-div8 {
         position: relative;
         width: 300px;
         height: 300px; 
@@ -159,7 +159,7 @@
 
        
     }
-    .favourites-section2 .spa-div9 {
+    .pemandu-section2 .spa-div9 {
         position: relative;
         width: 300px;
         height: 300px; 
@@ -227,16 +227,16 @@
     border-radius: 5px;
 }
 
-.favourites-section2 .button-pilih{
+.pemandu-section2 .button-pilih{
     background-color: #166274;
 }
 
-.favourites-section2 .button-fs2 {
+.pemandu-section2 .button-fs2 {
     background-color: #166274;
     border-color: #166274;
 }
 
-.favourites-section2 .cart-button {
+.pemandu-section2 .cart-button {
     position: fixed;
     bottom: 50px;
     right: 120px;
@@ -267,7 +267,7 @@
 }
 
 .custom-modal2 .modal-dialog {
-    max-width: 50%; /* Sesuaikan persentase sesuai kebutuhan Anda */
+    max-width: 75%; /* Sesuaikan persentase sesuai kebutuhan Anda */
     margin: auto;
 }
 
@@ -276,8 +276,6 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-
 
 .custom-modal2 .modal-header {
     border-bottom: none;
@@ -374,7 +372,7 @@
     margin-top: 50px;
     padding: 10px 20px;
     cursor: pointer;
-    margin-left: 50px;
+    margin-left: 450px;
     
 }
 

@@ -1,0 +1,44 @@
+.border-button {
+    border: 2px solid #000; /* Anda bisa mengganti warna dan ketebalan bingkai sesuai kebutuhan */
+    padding: 5px 15px; /* Menambahkan padding untuk tombol */
+}
+
+/* .navbar {
+    background-color: var(--primary-bg-color);
+} */
+
+.navbar .navbar-toggler {
+    border-color: white;
+}
+
+/* .navbar .navbar-toggler-icon,
+.navbar .navbar-brand img {
+    filter: invert();
+} */
+
+.navbar .navbar-brand img {
+    position: left;
+    width: 10rem;
+}
+
+/* @media screen and (max-width: 576px) {
+    .navbar {
+        background-color: var(--secondary-bg-color);
+
+    }
+} */
+
+.justify-content-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    color: #000 !important; /* Menggunakan !important untuk memastikan warna hitam diterapkan */
+}
+
+.nav-link:hover {
+    color: #333 !important; /* Warna saat link di-hover */
+}
+
+

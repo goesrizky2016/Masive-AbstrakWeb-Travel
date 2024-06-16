@@ -1,0 +1,140 @@
+.verifikasi-form {
+    background-image: url(/src/Assets/Images/Mask-group.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.verifikasi-button-1 .img-google {
+    margin: 3%;
+    width: 7%; /* Lebar gambar */
+    height: 58%; /* Tinggi gambar */
+}
+
+.verifikasi-wrapper2 { 
+    width: 420px;
+    background:transparent;
+    border: 2px solod   rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    box-shadow:  0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+
+.verifikasi-wrapper2 .verifikasi-input-box{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 20px 0px;
+    background-color: aliceblue;
+    margin-bottom: 100px;
+    margin-top:50px;
+}
+
+.verifikasi-input-box input{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    background-color: #D9D9D9;
+}
+
+/* .input-box input::placeholder {
+    color: rgba(7, 7, 7, 0.432);
+} */
+
+
+.verifikasi-wrapper2 .verifikasi-remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin: -15px 0 15px;
+}
+
+.verifikasi-remember-forgot label input{
+    accent-color: white;
+    margin-right: 4px;
+}
+
+.verifikasi-remember-forgot a{
+    color: black;
+    text-decoration: none;
+}
+
+.verifikasi-remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.verifikasi-wrapper2 .verifikasi-button{
+    width: 100%;
+    margin: 10px;
+    height: 45px;
+    background: #166274;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    position: relative;
+    margin-right: 10px;
+}
+
+.verifikasi-wrapper2 .verifikasi-button-1{
+    width: 100%;
+    margin: 10px;
+    height: 45px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(241, 240, 240, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #f8f5f5;
+    font-weight: 700;
+    text-align: center;
+}
+
+.verifikasi-wrapper2 .verifikasi-register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.verifikasi-register-link p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.verifikasi-register-link p a:hover{
+    text-decoration: underline;
+}
+
+.verifikasi-input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.back-button {
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: -900px;
+    margin-bottom: 0px;
+    
+}
+
+.text-color{
+    color: #166274;
+}
+
+
